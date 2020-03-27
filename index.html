@@ -12,7 +12,7 @@
     <form>
       <label>Enter your birthday details below:</label><br>
       <label for="dd"><b>Date:</b></label>
-      <select id="dd">
+      <select id="dd" required>
         <option>---</option>
         <option>1</option>
         <option>2</option>
@@ -48,7 +48,7 @@
       </select>
         <br>
       <label for="mm"><b>Month:</b></label>
-      <select id="mm">
+      <select id="mm" required>
           <option>---</option>
           <option>January</option>
           <option>February</option>
@@ -69,7 +69,10 @@
       <label for="male">&nbsp;&nbsp;<b>Male</b></label>
       <input type="radio" name="gender" id="male" value="Male"><br>
       <label for="female">&nbsp;&nbsp;<b>Female</b></label>
-      <input type="radio" name="gender" id="female" value="Female">
+      <input type="radio" name="gender" id="female" value="Female"><br>
+      <div class ="button">
+        <button type="submit" onclick="readData(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>Get Akan Name</button>	
+      </div>	
     </form>
 
   </body>
