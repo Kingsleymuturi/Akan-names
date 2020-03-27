@@ -1,9 +1,76 @@
 <html>
   <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
     <title>Calculator</title>
   </head>
   <body>
-    <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
+    
+    <h1>Akan Names</h1>
+    <p>If you are here and you are interested in knowing what your Akan name is then you are at the right place. Simply fill in the form below</p>
+    <form>
+      <label>Enter your birthday details below:</label><br>
+      <label for="dd"><b>Date:</b></label>
+      <select id="dd">
+        <option>---</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+      </select>
+        <br>
+      <label for="mm"><b>Month:</b></label>
+      <select id="mm">
+          <option>---</option>
+          <option>January</option>
+          <option>February</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>July</option>
+          <option>August</option>
+          <option>September</option>
+          <option>October</option>
+          <option>November</option>
+          <option>December</option>
+      </select><br>
+      <label for="yy"><b>Year:</b></label>
+      <input type="number" id="yy" placeholder="year of birth" min="1900" max="2020" required><br>
+      <label>Select your gender:</label><br>
+      <label for="male">&nbsp;&nbsp;<b>Male</b></label>
+      <input type="radio" name="gender" id="male" value="Male"><br>
+      <label for="female">&nbsp;&nbsp;<b>Female</b></label>
+      <input type="radio" name="gender" id="female" value="Female">
+    </form>
+
   </body>
 </html>
