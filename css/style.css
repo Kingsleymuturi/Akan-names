@@ -38,7 +38,7 @@
   font-size: 20px;
   background-color: burlywood;
   margin: auto;
-  padding: 10px 20px;
+  padding: 20px 40px;
   border: 1px solid coral;
   border-radius: 25px;
   text-decoration: none;
@@ -65,6 +65,6 @@ h1
 }
 .p
 {
-  font-size: 30px;
-  color: burlywood;
+  font-size: 40px;
+  color: beige;
 }
