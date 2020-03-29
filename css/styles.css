@@ -16,3 +16,11 @@ h1{
   font-size: 50px;
   font-family: 'Cookie', cursive;
 }
+.col-sm-10
+{
+  font-size: 20px;
+}
+.nav-link
+{
+  font-size: 20px;
+}
