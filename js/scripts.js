@@ -21,14 +21,12 @@ document.getElementById("submit").addEventListener("click",function(event){
       } else if(yy <= 1899 || yy> 2020){
       document.getElementById("Invalid2").innerText = "Please enter a valid year!"
       }else if (gender === "Male"){
-      document.getElementById("Result").innerHTML = "You were born on a " + days[dayOfTheWeek] + ".\n" +  "Your Akan name is " + maleNames[dayOfTheWeek] + "!"
-      document.getElementById("Result").style.padding = "9% 22% 13% 22%"
-      document.getElementById("Result").style.fontSize = "35px"
+      document.getElementById("Result").innerHTML = "🎉️🎉️You were born on a " + days[dayOfTheWeek] + ".\n" +  "Your Akan name is " + maleNames[dayOfTheWeek] + "🎉️🎉️"
+      document.getElementById("Result").style.fontSize = "50px"
       document.getElementById("Result").style.textAlign = "center"
       }else if (gender === "Female"){
-      document.getElementById("Result").innerHTML = "You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + femaleNames[dayOfTheWeek] + "!"
-      document.getElementById("Result").style.padding = "9% 22% 13% 22%"
-      document.getElementById("Result").style.fontSize = "35px"
+      document.getElementById("Result").innerHTML = "🎉️🎉️You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + femaleNames[dayOfTheWeek] + "🎉️🎉️"
+      document.getElementById("Result").style.fontSize = "50px"
       document.getElementById("Result").style.textAlign = "center"
       }else {
       document.getElementById("Invalid3").innerText = "Please select Gender!"
