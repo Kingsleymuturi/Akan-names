@@ -15,6 +15,7 @@ This webpage  that has information about Akan Names explaining their origin and 
 ## Access
 * click the live link to be directed directly to the webpage
 https://Kingsleymuturi.github.io/Akan-names
+* Once you are on the welcome webpage click get starter to be referred to the main site.
 ## Known Bugs
 The video might fail to fit on your window.
 ### Development
@@ -26,7 +27,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a new branch (`git checkout -b improve-feature`)
 - Make the appropriate changes in the files
 - Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
+- Commit your changes (`git commit -m 'Improve feature'`)
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request 
 
