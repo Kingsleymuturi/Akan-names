@@ -17,7 +17,7 @@ This webpage  that has information about Akan Names explaining their origin and 
 https://Kingsleymuturi.github.io/Akan-names
 * Once you are on the welcome webpage click get starter to be referred to the main site.
 ## Known Bugs
-The video might fail to fit on your window.
+The video might fail to fit on phone's window.
 ### Development
 Want to contribute? Great!
 
