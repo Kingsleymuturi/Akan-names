@@ -36,7 +36,7 @@
 .Button
 {
   font-size: 20px;
-  background-color: beige;
+  background-color: burlywood;
   margin: auto;
   padding: 10px 20px;
   border: 1px solid coral;
@@ -60,7 +60,7 @@ h1
 }
 .header
 {
-  background: rgba(0,0,100,0.4);
+  background: rgba(0,0,100,0.3);
   height: 100vh;
 }
 .p
