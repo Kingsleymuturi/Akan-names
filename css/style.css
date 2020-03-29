@@ -14,14 +14,14 @@
   height: auto;
   z-index: -30;
 }
-@media screen and (min-width: 580px) and (max-width: 767px) {
+@media screen and (min-width: 380px) and (max-width: 767px) {
   .video-background
   {
     width: 100%;
     height: auto;
   }
 }
-@media screen and (min-width: 580px) and (max-width: 767px) {
+@media screen and (min-width: 380px) and (max-width: 767px) {
   .video-background
   {
     width: auto;
