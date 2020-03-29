@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+.imagetext
+{
+  text-align: center;
+}
+@media screen and (min-width: 380px) and (max-width: 767px) {}
+.img
+{
+  width: 100%;
+  height: auto;
+}
+.links
+{
+  font-size: 50px;
+  font-family: 'Cookie', cursive;
+}
