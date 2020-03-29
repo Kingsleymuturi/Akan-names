@@ -37,7 +37,7 @@
 {
   font-size: 20px;
   background-color: beige;
-  margin: 10pc;
+  margin: auto;
   padding: 10px 20px;
   border: 1px solid coral;
   border-radius: 25px;
@@ -62,4 +62,9 @@ h1
 {
   background: rgba(0,0,100,0.4);
   height: 100vh;
+}
+.p
+{
+  font-size: 30px;
+  color: burlywood;
 }
