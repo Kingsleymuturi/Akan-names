@@ -5,8 +5,7 @@ h1{
 {
   text-align: center;
 }
-@media screen and (min-width: 580px) and (max-width: 767px) {}
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 380px) and (max-width: 767px) {}
 .img
 {
   width: 100%;
