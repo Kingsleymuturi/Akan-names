@@ -28,11 +28,13 @@ document.getElementById("submit").addEventListener("click",function(event){
       document.getElementById("Result").style.fontSize = "50px"
       document.getElementById("Result").style.textAlign = "center"
       document.getElementById("Result").style.color ="Brown"
+      document.getElementById("Result").style.fontFamily ="'Kaushan Script', cursive"
       }else if (gender === "Female"){
       document.getElementById("Result").innerHTML = "🎉️🎉️You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + femaleNames[dayOfTheWeek] + "🎉️🎉️"
       document.getElementById("Result").style.fontSize = "50px"
       document.getElementById("Result").style.textAlign = "center"
       document.getElementById("Result").style.color ="Purple"
+      document.getElementById("Result").style.fontFamily ="'Kaushan Script', cursive"
       }else {
       document.getElementById("Invalid3").innerText = "Please select Gender!"
       document.getElementById("Invalid3").style.color ="blue"
